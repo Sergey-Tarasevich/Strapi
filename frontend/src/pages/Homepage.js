@@ -48,6 +48,7 @@ export default function Homepage() {
         <div key={review.id} className="review-card">
           <div className="rating">{review.rating}</div>
           <h2>{review.title}</h2>
+          {/* <img src="/uploads/IMG_9262_0939b6eff2.JPG" /> */}
 
           {review.categories.map((c) => (
             <small key={c.id}>{c.name}</small>
